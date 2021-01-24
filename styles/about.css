@@ -1,0 +1,35 @@
+@import url('style.css');
+
+.img {
+    position: relative;
+    top: 10px;
+    border: 1px black;
+    height: 600px;
+    width: 500px;
+}
+
+.container {
+    margin-left: 5%;
+    padding: 1.5rem;
+}
+
+.aboutDes {
+    font-family: Tahoma;
+
+}
+
+.fas fa-gihub {
+    position: fixed;
+    right: 500px;
+}
+
+/*.aboutDes h2 {
+    position: relative;
+    top: 60px;
+    left: 100px;
+}
+
+.aboutDes p {
+    position: relative;
+    top: 100px;
+}*/
