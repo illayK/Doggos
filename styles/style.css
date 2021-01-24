@@ -9,11 +9,19 @@
 }
 
 .footer {
+    background-color: rgb(78, 76, 76);
     position: fixed;
     left: 0;
-    bottom: 10px;
+    bottom: 0;
     width: 100%;
     text-align: center;
+}
+
+.footer hr {
+    color: black;
+    background-color: black;
+    height: 2px;
+    size: 2px;
 }
 
 .footer #github:hover {
@@ -26,6 +34,8 @@
 }
 
 .footer #github  {
+    padding-top: 7px;
+    padding-bottom: 10px;
     color: black;
 }
 
@@ -37,7 +47,8 @@
 }
 
 body {
-    background-color: rgb(21, 155, 245);
+    /*background-color: rgb(21, 155, 245);*/
+    background-color: rgb(104, 187, 241);
 }
 
 nav {
@@ -45,11 +56,13 @@ nav {
     background-color: rgb(224, 30, 62);
     height: 80px;
     width: 100%;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
 
 label.logo {
     color: black;
-    font-size: 35px;
+    font-size: 40px;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;

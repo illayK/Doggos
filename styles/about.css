@@ -23,6 +23,12 @@
     right: 500px;
 }
 
+@media (max-width: 858) {
+    .img {
+        display: hidden;
+    }
+}
+
 /*.aboutDes h2 {
     position: relative;
     top: 60px;
